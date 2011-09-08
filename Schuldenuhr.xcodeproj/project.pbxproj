@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B404D2BB1418B2C500EEA27B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B404D2BA1418B2C500EEA27B /* UIKit.framework */; };
+		B404D2BD1418B2C500EEA27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B404D2BC1418B2C500EEA27B /* Foundation.framework */; };
+		B404D2BF1418B2C500EEA27B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B404D2BE1418B2C500EEA27B /* CoreGraphics.framework */; };
+		B404D2C51418B2C500EEA27B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B404D2C31418B2C500EEA27B /* InfoPlist.strings */; };
+		B404D2C71418B2C500EEA27B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B404D2C61418B2C500EEA27B /* main.m */; };
+		B404D2CB1418B2C500EEA27B /* SchuldenuhrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B404D2CA1418B2C500EEA27B /* SchuldenuhrAppDelegate.m */; };
+		B404D2CE1418B2C500EEA27B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D2CC1418B2C500EEA27B /* MainWindow.xib */; };
+		B404D2D11418B2C500EEA27B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B404D2D01418B2C500EEA27B /* MainViewController.m */; };
+		B404D2D31418B2C500EEA27B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D2D21418B2C500EEA27B /* MainView.xib */; };
+		B404D2D61418B2C500EEA27B /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B404D2D51418B2C500EEA27B /* FlipsideViewController.m */; };
+		B404D2D81418B2C500EEA27B /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D2D71418B2C500EEA27B /* FlipsideView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B404D2B61418B2C500EEA27B /* Schuldenuhr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schuldenuhr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B404D2BA1418B2C500EEA27B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B404D2BC1418B2C500EEA27B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B404D2BE1418B2C500EEA27B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B404D2C21418B2C500EEA27B /* Schuldenuhr-Info.plist */ = {isa = PBXFileReference; path = "Schuldenuhr-Info.plist"; sourceTree = "<group>"; };
+		B404D2C41418B2C500EEA27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B404D2C61418B2C500EEA27B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B404D2C81418B2C500EEA27B /* Schuldenuhr-Prefix.pch */ = {isa = PBXFileReference; path = "Schuldenuhr-Prefix.pch"; sourceTree = "<group>"; };
+		B404D2C91418B2C500EEA27B /* SchuldenuhrAppDelegate.h */ = {isa = PBXFileReference; path = SchuldenuhrAppDelegate.h; sourceTree = "<group>"; };
+		B404D2CA1418B2C500EEA27B /* SchuldenuhrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchuldenuhrAppDelegate.m; sourceTree = "<group>"; };
+		B404D2CD1418B2C500EEA27B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B404D2CF1418B2C500EEA27B /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		B404D2D01418B2C500EEA27B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B404D2D21418B2C500EEA27B /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		B404D2D41418B2C500EEA27B /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B404D2D51418B2C500EEA27B /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B404D2D71418B2C500EEA27B /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B404D2B31418B2C500EEA27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B404D2BB1418B2C500EEA27B /* UIKit.framework in Frameworks */,
+				B404D2BD1418B2C500EEA27B /* Foundation.framework in Frameworks */,
+				B404D2BF1418B2C500EEA27B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B404D2AB1418B2C400EEA27B = {
+			isa = PBXGroup;
+			children = (
+				B404D2C01418B2C500EEA27B /* Schuldenuhr */,
+				B404D2B91418B2C500EEA27B /* Frameworks */,
+				B404D2B71418B2C500EEA27B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B404D2B71418B2C500EEA27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B404D2B61418B2C500EEA27B /* Schuldenuhr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B404D2B91418B2C500EEA27B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B404D2BA1418B2C500EEA27B /* UIKit.framework */,
+				B404D2BC1418B2C500EEA27B /* Foundation.framework */,
+				B404D2BE1418B2C500EEA27B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B404D2C01418B2C500EEA27B /* Schuldenuhr */ = {
+			isa = PBXGroup;
+			children = (
+				B404D2C91418B2C500EEA27B /* SchuldenuhrAppDelegate.h */,
+				B404D2CA1418B2C500EEA27B /* SchuldenuhrAppDelegate.m */,
+				B404D2CC1418B2C500EEA27B /* MainWindow.xib */,
+				B404D2CF1418B2C500EEA27B /* MainViewController.h */,
+				B404D2D01418B2C500EEA27B /* MainViewController.m */,
+				B404D2D21418B2C500EEA27B /* MainView.xib */,
+				B404D2D41418B2C500EEA27B /* FlipsideViewController.h */,
+				B404D2D51418B2C500EEA27B /* FlipsideViewController.m */,
+				B404D2D71418B2C500EEA27B /* FlipsideView.xib */,
+				B404D2C11418B2C500EEA27B /* Supporting Files */,
+			);
+			path = Schuldenuhr;
+			sourceTree = "<group>";
+		};
+		B404D2C11418B2C500EEA27B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B404D2C21418B2C500EEA27B /* Schuldenuhr-Info.plist */,
+				B404D2C31418B2C500EEA27B /* InfoPlist.strings */,
+				B404D2C61418B2C500EEA27B /* main.m */,
+				B404D2C81418B2C500EEA27B /* Schuldenuhr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B404D2B51418B2C500EEA27B /* Schuldenuhr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B404D2DB1418B2C500EEA27B /* Build configuration list for PBXNativeTarget "Schuldenuhr" */;
+			buildPhases = (
+				B404D2B21418B2C500EEA27B /* Sources */,
+				B404D2B31418B2C500EEA27B /* Frameworks */,
+				B404D2B41418B2C500EEA27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schuldenuhr;
+			productName = Schuldenuhr;
+			productReference = B404D2B61418B2C500EEA27B /* Schuldenuhr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B404D2AD1418B2C400EEA27B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Hoccer;
+			};
+			buildConfigurationList = B404D2B01418B2C400EEA27B /* Build configuration list for PBXProject "Schuldenuhr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B404D2AB1418B2C400EEA27B;
+			productRefGroup = B404D2B71418B2C500EEA27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B404D2B51418B2C500EEA27B /* Schuldenuhr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B404D2B41418B2C500EEA27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B404D2C51418B2C500EEA27B /* InfoPlist.strings in Resources */,
+				B404D2CE1418B2C500EEA27B /* MainWindow.xib in Resources */,
+				B404D2D31418B2C500EEA27B /* MainView.xib in Resources */,
+				B404D2D81418B2C500EEA27B /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B404D2B21418B2C500EEA27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B404D2C71418B2C500EEA27B /* main.m in Sources */,
+				B404D2CB1418B2C500EEA27B /* SchuldenuhrAppDelegate.m in Sources */,
+				B404D2D11418B2C500EEA27B /* MainViewController.m in Sources */,
+				B404D2D61418B2C500EEA27B /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B404D2C31418B2C500EEA27B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B404D2C41418B2C500EEA27B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B404D2CC1418B2C500EEA27B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B404D2CD1418B2C500EEA27B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B404D2D91418B2C500EEA27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B404D2DA1418B2C500EEA27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B404D2DC1418B2C500EEA27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schuldenuhr/Schuldenuhr-Prefix.pch";
+				INFOPLIST_FILE = "Schuldenuhr/Schuldenuhr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B404D2DD1418B2C500EEA27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schuldenuhr/Schuldenuhr-Prefix.pch";
+				INFOPLIST_FILE = "Schuldenuhr/Schuldenuhr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B404D2B01418B2C400EEA27B /* Build configuration list for PBXProject "Schuldenuhr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B404D2D91418B2C500EEA27B /* Debug */,
+				B404D2DA1418B2C500EEA27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B404D2DB1418B2C500EEA27B /* Build configuration list for PBXNativeTarget "Schuldenuhr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B404D2DC1418B2C500EEA27B /* Debug */,
+				B404D2DD1418B2C500EEA27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B404D2AD1418B2C400EEA27B /* Project object */;
+}
