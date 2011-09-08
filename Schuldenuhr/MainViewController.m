@@ -8,16 +8,65 @@
 
 #import "MainViewController.h"
 
+#define SCHULDEN 63826570269.7
+#define SCHULDENKOPF 18552.08
+#define ZUWACHS 86.803843226788432267884322678843
+#define STARTZEIT 1315305153
+
 @implementation MainViewController
 
+@synthesize zuwachsLabel,kopfLabel,schuldenLabel,startImage;
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewWillAppear:animated];
+    zuwachsLabel.text = [self formatSchulden:ZUWACHS];
+    currentSchulden = SCHULDEN + (([[NSDate date] timeIntervalSince1970]-STARTZEIT)*ZUWACHS);
+    currentProKopf = currentSchulden/3468939;
+    schuldenLabel.text = [self formatSchulden:currentSchulden];
+    kopfLabel.text = [self formatSchulden:currentProKopf];
+    
+    schuldenTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(changeSchuldenLabel) userInfo:nil repeats:YES];
+    
+    startImageTimer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(hideStartImage) userInfo:nil repeats:NO];
+    
+    [schuldenTimer fire];
 }
-*/
+
+- (void)changeSchuldenLabel {
+    currentSchulden = currentSchulden + ZUWACHS;
+    currentProKopf = currentSchulden/3468939;
+    schuldenLabel.text = [self formatSchulden:currentSchulden];
+    kopfLabel.text = [self formatSchulden:currentProKopf];
+}
+
+- (NSString *)formatSchulden:(double)schulden {
+    
+    NSNumber *number = [NSNumber numberWithDouble:schulden];
+    NSNumberFormatter *frmtr = [[NSNumberFormatter alloc] init];
+    [frmtr setGroupingSize:3];
+    [frmtr setGroupingSeparator:@"."];
+    [frmtr setUsesGroupingSeparator:YES];
+    NSString *seperatedString = [frmtr stringFromNumber:number];
+
+    return seperatedString;
+}
+
+- (void)hideStartImage {
+    
+    [startImageTimer invalidate];
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [startImage setAlpha:0];
+    [UIView commitAnimations];
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [schuldenTimer invalidate];
+}
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
 {
@@ -38,7 +87,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,9 +101,17 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    [schuldenTimer invalidate];
 
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
+- (void)dealloc {
+    [schuldenLabel release];
+    [zuwachsLabel release];
+    [startImage release];
+    [kopfLabel release];
+    [super dealloc];
+}
 @end

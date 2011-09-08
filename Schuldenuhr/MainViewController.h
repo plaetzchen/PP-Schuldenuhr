@@ -9,10 +9,28 @@
 #import "FlipsideViewController.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+    
+    IBOutlet UILabel *schuldenLabel;
+    IBOutlet UILabel *kopfLabel;
+    IBOutlet UILabel *zuwachsLabel;
+    IBOutlet UIImageView *startImage;
+
+    NSTimer *schuldenTimer;
+    NSTimer *startImageTimer;
+    
+    double currentSchulden;
+    double currentProKopf;
 
 }
 
+@property (nonatomic,retain) IBOutlet UILabel *schuldenLabel;
+@property (nonatomic,retain) IBOutlet UILabel *kopfLabel;
+@property (nonatomic,retain) IBOutlet UILabel *zuwachsLabel;
+@property (nonatomic,retain) IBOutlet UIImageView *startImage;
 
 - (IBAction)showInfo:(id)sender;
 
+- (void)changeSchuldenLabel;
+- (NSString *)formatSchulden:(double)schulden;
+- (void)hideStartImage;
 @end

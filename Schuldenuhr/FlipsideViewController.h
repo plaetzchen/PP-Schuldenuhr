@@ -19,5 +19,6 @@
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;
+- (IBAction)openWebsite:(id)sender;
 
 @end

@@ -18,6 +18,16 @@
 		B404D2D31418B2C500EEA27B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D2D21418B2C500EEA27B /* MainView.xib */; };
 		B404D2D61418B2C500EEA27B /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B404D2D51418B2C500EEA27B /* FlipsideViewController.m */; };
 		B404D2D81418B2C500EEA27B /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D2D71418B2C500EEA27B /* FlipsideView.xib */; };
+		B404D2E81418C2BA00EEA27B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2E41418C2BA00EEA27B /* background.png */; };
+		B404D2E91418C2BA00EEA27B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2E51418C2BA00EEA27B /* background@2x.png */; };
+		B404D2F21418C56A00EEA27B /* schuldenuhr.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F01418C56A00EEA27B /* schuldenuhr.png */; };
+		B404D2F31418C56A00EEA27B /* schuldenuhr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F11418C56A00EEA27B /* schuldenuhr@2x.png */; };
+		B404D2F61418C67000EEA27B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F41418C67000EEA27B /* Default.png */; };
+		B404D2F71418C67000EEA27B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F51418C67000EEA27B /* Default@2x.png */; };
+		B404D2FA1418CE3200EEA27B /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F81418CE3200EEA27B /* info.png */; };
+		B404D2FB1418CE3200EEA27B /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D2F91418CE3200EEA27B /* info@2x.png */; };
+		B404D3021418D0CE00EEA27B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D3011418D0CE00EEA27B /* Icon.png */; };
+		B404D3041418D0D300EEA27B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B404D3031418D0D300EEA27B /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +35,30 @@
 		B404D2BA1418B2C500EEA27B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B404D2BC1418B2C500EEA27B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B404D2BE1418B2C500EEA27B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B404D2C21418B2C500EEA27B /* Schuldenuhr-Info.plist */ = {isa = PBXFileReference; path = "Schuldenuhr-Info.plist"; sourceTree = "<group>"; };
+		B404D2C21418B2C500EEA27B /* Schuldenuhr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Schuldenuhr-Info.plist"; sourceTree = "<group>"; };
 		B404D2C41418B2C500EEA27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B404D2C61418B2C500EEA27B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B404D2C81418B2C500EEA27B /* Schuldenuhr-Prefix.pch */ = {isa = PBXFileReference; path = "Schuldenuhr-Prefix.pch"; sourceTree = "<group>"; };
-		B404D2C91418B2C500EEA27B /* SchuldenuhrAppDelegate.h */ = {isa = PBXFileReference; path = SchuldenuhrAppDelegate.h; sourceTree = "<group>"; };
+		B404D2C81418B2C500EEA27B /* Schuldenuhr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Schuldenuhr-Prefix.pch"; sourceTree = "<group>"; };
+		B404D2C91418B2C500EEA27B /* SchuldenuhrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchuldenuhrAppDelegate.h; sourceTree = "<group>"; };
 		B404D2CA1418B2C500EEA27B /* SchuldenuhrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchuldenuhrAppDelegate.m; sourceTree = "<group>"; };
 		B404D2CD1418B2C500EEA27B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B404D2CF1418B2C500EEA27B /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		B404D2CF1418B2C500EEA27B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B404D2D01418B2C500EEA27B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B404D2D21418B2C500EEA27B /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		B404D2D41418B2C500EEA27B /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B404D2D41418B2C500EEA27B /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		B404D2D51418B2C500EEA27B /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		B404D2D71418B2C500EEA27B /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		B404D2E41418C2BA00EEA27B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B404D2E51418C2BA00EEA27B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		B404D2F01418C56A00EEA27B /* schuldenuhr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schuldenuhr.png; sourceTree = "<group>"; };
+		B404D2F11418C56A00EEA27B /* schuldenuhr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schuldenuhr@2x.png"; sourceTree = "<group>"; };
+		B404D2F41418C67000EEA27B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B404D2F51418C67000EEA27B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B404D2F81418CE3200EEA27B /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		B404D2F91418CE3200EEA27B /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		B404D3001418D07900EEA27B /* Schuldenuhr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Schuldenuhr.entitlements; sourceTree = "<group>"; };
+		B404D3011418D0CE00EEA27B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B404D3031418D0D300EEA27B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,8 @@
 		B404D2AB1418B2C400EEA27B = {
 			isa = PBXGroup;
 			children = (
+				B404D3031418D0D300EEA27B /* Icon@2x.png */,
+				B404D3011418D0CE00EEA27B /* Icon.png */,
 				B404D2C01418B2C500EEA27B /* Schuldenuhr */,
 				B404D2B91418B2C500EEA27B /* Frameworks */,
 				B404D2B71418B2C500EEA27B /* Products */,
@@ -84,6 +107,7 @@
 		B404D2C01418B2C500EEA27B /* Schuldenuhr */ = {
 			isa = PBXGroup;
 			children = (
+				B404D3001418D07900EEA27B /* Schuldenuhr.entitlements */,
 				B404D2C91418B2C500EEA27B /* SchuldenuhrAppDelegate.h */,
 				B404D2CA1418B2C500EEA27B /* SchuldenuhrAppDelegate.m */,
 				B404D2CC1418B2C500EEA27B /* MainWindow.xib */,
@@ -101,6 +125,14 @@
 		B404D2C11418B2C500EEA27B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B404D2F41418C67000EEA27B /* Default.png */,
+				B404D2F51418C67000EEA27B /* Default@2x.png */,
+				B404D2E41418C2BA00EEA27B /* background.png */,
+				B404D2F81418CE3200EEA27B /* info.png */,
+				B404D2F91418CE3200EEA27B /* info@2x.png */,
+				B404D2E51418C2BA00EEA27B /* background@2x.png */,
+				B404D2F01418C56A00EEA27B /* schuldenuhr.png */,
+				B404D2F11418C56A00EEA27B /* schuldenuhr@2x.png */,
 				B404D2C21418B2C500EEA27B /* Schuldenuhr-Info.plist */,
 				B404D2C31418B2C500EEA27B /* InfoPlist.strings */,
 				B404D2C61418B2C500EEA27B /* main.m */,
@@ -163,6 +195,16 @@
 				B404D2CE1418B2C500EEA27B /* MainWindow.xib in Resources */,
 				B404D2D31418B2C500EEA27B /* MainView.xib in Resources */,
 				B404D2D81418B2C500EEA27B /* FlipsideView.xib in Resources */,
+				B404D2E81418C2BA00EEA27B /* background.png in Resources */,
+				B404D2E91418C2BA00EEA27B /* background@2x.png in Resources */,
+				B404D2F21418C56A00EEA27B /* schuldenuhr.png in Resources */,
+				B404D2F31418C56A00EEA27B /* schuldenuhr@2x.png in Resources */,
+				B404D2F61418C67000EEA27B /* Default.png in Resources */,
+				B404D2F71418C67000EEA27B /* Default@2x.png in Resources */,
+				B404D2FA1418CE3200EEA27B /* info.png in Resources */,
+				B404D2FB1418CE3200EEA27B /* info@2x.png in Resources */,
+				B404D3021418D0CE00EEA27B /* Icon.png in Resources */,
+				B404D3041418D0D300EEA27B /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +290,11 @@
 		B404D2DC1418B2C500EEA27B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Schuldenuhr/Schuldenuhr.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Schuldenuhr/Schuldenuhr-Prefix.pch";
 				INFOPLIST_FILE = "Schuldenuhr/Schuldenuhr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,10 +303,14 @@
 		B404D2DD1418B2C500EEA27B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Schuldenuhr/Schuldenuhr.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Philip Brechler";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Schuldenuhr/Schuldenuhr-Prefix.pch";
 				INFOPLIST_FILE = "Schuldenuhr/Schuldenuhr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3C67D103-43E3-4892-958C-4083AF2A2E0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

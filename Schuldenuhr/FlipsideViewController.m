@@ -38,7 +38,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 #pragma mark - Actions
@@ -46,6 +46,11 @@
 - (IBAction)done:(id)sender
 {
     [self.delegate flipsideViewControllerDidFinish:self];
+}
+
+- (IBAction)openWebsite:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http:/berlin.piratenpartei.de"]];
+
 }
 
 @end
